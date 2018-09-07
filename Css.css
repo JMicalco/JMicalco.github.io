@@ -11,3 +11,8 @@
     border: 1px solid #01579b;
     border-radius:25px;
 }
+
+img {
+    width:auto;
+    height: auto;
+}
