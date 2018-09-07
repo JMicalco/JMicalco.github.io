@@ -34,3 +34,11 @@ img {
 .textWhite{
     color: white;
 }
+
+.backgroundImg{
+background: url(http://www.printawallpaper.com/upload/designs/thin_news_detail.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
