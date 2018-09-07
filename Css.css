@@ -42,3 +42,7 @@ background: url(http://www.printawallpaper.com/upload/designs/thin_news_detail.j
 -o-background-size: cover;
 background-size: cover;
 }
+
+.background{
+    background-color: white;
+}
