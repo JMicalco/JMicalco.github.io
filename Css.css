@@ -45,7 +45,7 @@
 }
 
 .backgroundImg{
-background: url(http://www.printawallpaper.com/upload/designs/thin_news_detail.jpg) no-repeat center center fixed;
+background: url(https://point.zastone.ba/site/wp-content/uploads/2017/04/fake-news-donald.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -54,4 +54,36 @@ background-size: cover;
 
 .background{
     background-color: white;
+}
+
+.backgroundImgA{
+background: url(http://overfx.net/wp-content/uploads/sites/242/2017/03/cropped-888-1150x700.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.backgroundImgS{
+background: url(http://www.ramattechnologies.com/wp-content/uploads/2015/10/Solutions.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.backgroundImgI{
+background: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-5.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.backgroundImgR{
+background: url(https://cdn-images-1.medium.com/max/2000/1*SCbNGjbdW2GF_YASXb_vwA.jpeg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
