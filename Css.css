@@ -87,3 +87,13 @@ background: url(https://cdn-images-1.medium.com/max/2000/1*SCbNGjbdW2GF_YASXb_vw
 -o-background-size: cover;
 background-size: cover;
 }
+
+h5{
+    font-family: "Times New Roman";
+    text-align: center;
+
+}
+
+li{
+    font-family: "Times New Roman";
+}
