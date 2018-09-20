@@ -18,6 +18,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%
 }
 
 #img {
@@ -26,7 +27,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
+    margin-bottom: 5%;
 }
 
 .card-panel1 {
