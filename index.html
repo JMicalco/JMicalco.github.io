@@ -31,32 +31,36 @@
       </div>
       </div>
       <div class="container">
-<ul class="collapsible popout">
-  <li>
-    <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Qué?</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-    <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Cómo?</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-    <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Quien?</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-    <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Donde?</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-    <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Cuando?</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-    <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Por Qué?</div>
-    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-</ul>
+      <div class="col s12">
+          <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Qué?</div>
+              <div class="collapsible-body collapsible-body1 background"><span>Es un producto pseudo-periodístico el cual se proposito es el de desinformar o engañar, alteran los hechos y los presentan  como si estos fueran verdaderos. usualmente tiene una relación con la propaganda sin embargo esta característica mencionada es lo que la diferencia de ella.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Cómo?</div>
+              <div class="collapsible-body collapsible-body1 background"><span>Se realiza principalmente mediante el uso de redes sociales como Facebook, twitter. sin embargo también puede difundirse a través de cadenas televisoras, radio o cualquier otro medio de comunicación utilizado por las masas</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Quien?</div>
+              <div class="collapsible-body collapsible-body1 background"><span>Este acto puede ser por cualquier persona que tenga intención de hacer algún daño u obtener algún beneficio, ya sea algún político, grupo o movimiento social o inclusive una persona promedio, cualquiera con las habilidades para manipular información y  hacerla creíble es capaz de realizar este tipo de actividad.
+                  Las víctimas son todo tipos de personas, niños, jóvenes, adultos, ancianos, las víctimas usualmente no son personas específicas sino las masas.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Donde?</div>
+              <div class="collapsible-body collapsible-body1 background"><span>Las Fake News no tiene un limite en cuestion de territorio ya sea una persona que vive en la India o en Canadá pueden salir afectadas, este problema ocurre alrededor del mundo ya que existe una globalización donde la mayoría de las noticias recorren todo el mundo.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Cuando?</div>
+              <div class="collapsible-body collapsible-body1 background"><span>Se puede realizar en cualquier momento ya que las noticias circulan todos los dias, depende mucho del creador y lo que quiera ganar al realizar este tipo de actividad.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">clear_all</i>¿Por Qué?</div>
+              <div class="collapsible-body collapsible-body1 background"><span>Se realiza para causar un daño o para obtener algún beneficio, hay muchas motivaciones detrás de ellas, puede ser para hacer propaganda, para provocar a alguien o alguna organización, para que esta pierda credibilidad. también puede ser para sacar algún beneficio económico, así como influenciar las decisiones personales entre otras. sin embargo no siempre es para hacer algún daño debido a que la mayoría de los medios periodísticos quieren ser los primeros en cubrir alguna noticia reciente no se le da el tiempo necesario para recabar información correcta y terminan publicando una noticia errónea o incompleta surgiendo así un periodismo deficiente.</span></div>
+            </li>
+          </ul>
+      </div>
+
 
           <!--<div class="row segments z-depth-3 background" >
               <div class="col s12 background">
@@ -124,8 +128,13 @@
         </div>
       </footer>
     <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
     <script type="text/javascript" src="materialize.js"></script>
     <script type="text/javascript" src="JavaScript.js"></script>
-    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.collapsible').collapsible();
+        });
+    </script>
   </body>
 </html>

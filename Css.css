@@ -13,8 +13,8 @@
 }
 
 #img1 {
-    width:50%;
-    height:750px;
+    width:auto;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -22,8 +22,8 @@
 }
 
 #img {
-    width:50%;
-    height:350px;
+    width:auto;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,8 +45,12 @@
     color: white;
 }
 
+.textGreen{
+    color:blue;
+}
+
 .backgroundImg{
-background: url(https://point.zastone.ba/site/wp-content/uploads/2017/04/fake-news-donald.jpg) no-repeat center center fixed;
+background: url(https://cdn.pixabay.com/photo/2017/05/30/03/58/fake-2355686_1280.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -66,7 +70,7 @@ background-size: cover;
 }
 
 .backgroundImgS{
-background: url(http://www.ramattechnologies.com/wp-content/uploads/2015/10/Solutions.jpg) no-repeat center center fixed;
+background: url(https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_1280.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -74,7 +78,7 @@ background-size: cover;
 }
 
 .backgroundImgI{
-background: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-5.jpg) no-repeat center center fixed;
+background: url(https://cdn.pixabay.com/photo/2014/03/22/22/17/twitter-292994_1280.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -107,4 +111,7 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+
+.collapsible-body1 {
 }
