@@ -1,0 +1,45 @@
+.questions{
+  background-image: url(https://images.unsplash.com/photo-1510741149781-bb76bb644d5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5f534cf919af6bd9c072e04ce6297440&auto=format&fit=crop&w=1050&q=80) ;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.questions1{
+  background: url(https://images.unsplash.com/photo-1504151806930-41c67891f1de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=589e51d2157774a48ec01cc0ae7fcdc4&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.questions2{
+  background: url(https://cdn.pixabay.com/photo/2018/07/20/14/03/grapes-3550742_1280.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.margin{
+  margin-top: 50%;
+}
+
+.background{
+    background-color: white;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.textCenter{
+    text-align: center;
+}
