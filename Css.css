@@ -13,20 +13,21 @@
 }
 
 #img1 {
-    width:50%;
-    height:750px;
+    width:650px;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%
 }
 
 #img {
-    width:50%;
-    height:350px;
+    width:auto;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
+    margin-bottom: 5%;
 }
 
 .card-panel1 {
@@ -44,8 +45,12 @@
     color: white;
 }
 
+.textGreen{
+    color:blue;
+}
+
 .backgroundImg{
-background: url(http://www.printawallpaper.com/upload/designs/thin_news_detail.jpg) no-repeat center center fixed;
+background: url(images/FakeNews.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -54,4 +59,79 @@ background-size: cover;
 
 .background{
     background-color: white;
+}
+
+.backgroundImgA{
+background: url(images/Laptop.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.backgroundImgS{
+background: url(images/Question.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.backgroundImgI{
+background: url(images/SocialMedia.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.backgroundImgR{
+background: url(images/Books.jpeg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+h5{
+    font-family: "Times New Roman";
+    text-align: center;
+
+}
+
+li{
+    font-family: "Times New Roman";
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.collapsible-body1 {
+}
+
+.navbar_footer_1{
+    background-color:#1565c0;
+}
+
+.navbar_footer_2{
+    background-color:#0d47a1;
+}
+
+.btn-white{
+    background-color:white;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-center{
+    text-align: center;
 }
