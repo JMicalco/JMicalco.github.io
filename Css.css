@@ -50,7 +50,7 @@
 }
 
 .backgroundImg{
-background: url(https://cdn.pixabay.com/photo/2017/05/30/03/58/fake-2355686_1280.jpg) no-repeat center center fixed;
+background: url(images/FakeNews.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -62,7 +62,7 @@ background-size: cover;
 }
 
 .backgroundImgA{
-background: url(http://overfx.net/wp-content/uploads/sites/242/2017/03/cropped-888-1150x700.jpg) no-repeat center center fixed;
+background: url(images/Laptop.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -70,7 +70,7 @@ background-size: cover;
 }
 
 .backgroundImgS{
-background: url(https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_1280.jpg) no-repeat center center fixed;
+background: url(images/Question.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -78,7 +78,7 @@ background-size: cover;
 }
 
 .backgroundImgI{
-background: url(https://cdn.pixabay.com/photo/2014/03/22/22/17/twitter-292994_1280.jpg) no-repeat center center fixed;
+background: url(images/SocialMedia.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -86,7 +86,7 @@ background-size: cover;
 }
 
 .backgroundImgR{
-background: url(https://cdn-images-1.medium.com/max/2000/1*SCbNGjbdW2GF_YASXb_vwA.jpeg) no-repeat center center fixed;
+background: url(images/Books.jpeg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
